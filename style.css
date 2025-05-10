@@ -1,0 +1,99 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #1e1e1e;
+}
+
+.header-left {
+  font-size: 14px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.balance-section {
+  padding: 20px;
+  background-color: #1e1e1e;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #FF7A00;
+  margin-bottom: 10px;
+}
+
+.balance {
+  font-size: 28px;
+}
+
+.buttons-section, .options-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #1e1e1e;
+  margin-bottom: 5px;
+}
+
+.button, .option {
+  padding: 10px 15px;
+  background-color: #333;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.promo-section {
+  background-color: #1e1e1e;
+  padding: 15px;
+  text-align: center;
+}
+
+.promo p {
+  font-weight: bold;
+}
+
+.loan-section {
+  background-color: #FF7A00;
+  padding: 20px;
+  text-align: center;
+}
+
+.loan-input {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.footer-item {
+  font-size: 14px;
+  cursor: pointer;
+}
